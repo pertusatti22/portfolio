@@ -1,0 +1,12 @@
+[
+  {"tipo": "STATUS_SISTEMA", "codigo": "ATIVO", "descricao": "Ativo", "sigla": "AT", "liberado": true, "ordem": 1, "ativo": true},
+  {"tipo": "STATUS_SISTEMA", "codigo": "INATIVO", "descricao": "Inativo", "sigla": "IN", "liberado": true, "ordem": 2, "ativo": true},
+  {"tipo": "TIPO_URL", "codigo": "PRODUCAO", "descricao": "Produção", "sigla": "PRD", "liberado": true, "ordem": 1, "ativo": true},
+  {"tipo": "TIPO_URL", "codigo": "HOMOLOGACAO", "descricao": "Homologação", "sigla": "HML", "liberado": true, "ordem": 2, "ativo": true},
+  {"tipo": "TIPO_COMPONENTE", "codigo": "FRONTEND", "descricao": "Frontend", "sigla": "FE", "liberado": true, "ordem": 1, "ativo": true},
+  {"tipo": "TIPO_COMPONENTE", "codigo": "BACKEND", "descricao": "Backend", "sigla": "BE", "liberado": true, "ordem": 2, "ativo": true},
+  {"tipo": "TIPO_ROTINA", "codigo": "BATCH", "descricao": "Batch", "sigla": "BAT", "liberado": true, "ordem": 1, "ativo": true},
+  {"tipo": "TIPO_BACKUP", "codigo": "FULL", "descricao": "Full", "sigla": "FUL", "liberado": true, "ordem": 1, "ativo": true},
+  {"tipo": "PERFIL_USUARIO", "codigo": "ADMIN", "descricao": "Administrador", "sigla": "ADM", "liberado": true, "ordem": 1, "ativo": true},
+  {"tipo": "PERFIL_USUARIO", "codigo": "CONSULTA", "descricao": "Consulta", "sigla": "CON", "liberado": true, "ordem": 2, "ativo": true}
+]

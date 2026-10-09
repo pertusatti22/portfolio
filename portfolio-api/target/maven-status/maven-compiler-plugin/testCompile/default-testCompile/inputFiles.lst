@@ -1,0 +1,16 @@
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\api\painel\PainelControllerTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\api\sistema\SistemaControllerTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\application\catalogo\CatalogoServiceTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\application\painel\PainelServiceTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\application\sistema\SistemaServiceTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\application\sistema\SistemaVinculosServiceTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\application\usuario\UsuarioServiceTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\domain\catalogo\CatalogoTipoTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\domain\documentacao\DocumentacaoTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\domain\shared\PaginaRequestTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\domain\shared\PaginaTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\domain\shared\TextosTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\domain\sistema\SistemaTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\domain\url\UrlTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\domain\usuario\UsuarioTest.java
+C:\Projetos\portfolio\portfolio-api\src\test\java\br\gov\anvisa\portfolio\infrastructure\persistence\support\PaginasTest.java

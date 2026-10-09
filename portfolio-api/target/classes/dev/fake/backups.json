@@ -1,0 +1,3 @@
+[
+  {"id": 1, "sistemaId": 1, "tipoBackupId": 1, "caminho": "/backup/sgp/full", "frequencia": "DIARIO", "eliminaArchiveLog": true, "retencao": 30, "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"}
+]

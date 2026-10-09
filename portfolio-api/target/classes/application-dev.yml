@@ -1,0 +1,36 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    url: jdbc:h2:mem:portfolio-dev;DB_CLOSE_DELAY=-1;MODE=Oracle;DATABASE_TO_LOWER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: false
+        default_schema: PUBLIC
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  sql:
+    init:
+      mode: never
+
+server:
+  port: 8080
+
+app:
+  cors:
+    allowed-origins: "http://localhost:4200"
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs

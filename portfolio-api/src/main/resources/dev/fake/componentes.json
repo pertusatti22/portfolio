@@ -1,0 +1,4 @@
+[
+  {"id": 1, "sistemaId": 1, "nome": "portfolio-frontend", "tipoComponenteId": 1, "descricao": "Angular 17", "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"},
+  {"id": 2, "sistemaId": 1, "nome": "portfolio-api", "tipoComponenteId": 2, "descricao": "Spring Boot", "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"}
+]

@@ -1,0 +1,4 @@
+[
+  {"id": 1, "sistemaId": 1, "tipoUrlId": 1, "url": "https://portfolio.anvisa.gov.br", "ambiente": "PROD", "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"},
+  {"id": 2, "sistemaId": 1, "tipoUrlId": 2, "url": "https://hml.portfolio.anvisa.gov.br", "ambiente": "HML", "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"}
+]

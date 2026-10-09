@@ -1,0 +1,72 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: portfolio-api
+
+  datasource:
+    url: ${PORTFOLIO_DB_URL:jdbc:oracle:thin:@//localhost:1521/ORCLPDB1}
+    username: ${PORTFOLIO_DB_USER:PORTIFOLIO_WEB}
+    password: ${PORTFOLIO_DB_PASSWORD:}
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      pool-name: portfolio-pool
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      # O banco (schema DBPORTIFOLIO) e gerenciado por DDL versionado; a API apenas mapeia.
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+        default_schema: ${PORTFOLIO_DB_SCHEMA:DBPORTIFOLIO}
+        jdbc:
+          batch_size: 50
+        order_inserts: true
+        order_updates: true
+        default_batch_fetch_size: 100
+
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: false
+      indent-output: false
+
+portfolio:
+  api:
+    base-path: /api/v1
+  jdbc:
+    # Schema owner dos objetos (tabelas, sequences e indicadores) da base portfolio.
+    esquema: ${PORTFOLIO_DB_SCHEMA:DBPORTIFOLIO}
+  openapi:
+    title: Portfolio API
+    description: API do Portifolio de TI - sistemas, servidores, usuarios e catalogos
+    version: 1.0.0
+  cors:
+    allowed-origins: ${PORTFOLIO_CORS_ORIGINS:http://localhost:4200}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+
+logging:
+  level:
+    br.gov.anvisa.portfolio: INFO

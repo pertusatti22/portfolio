@@ -1,0 +1,16 @@
+br\gov\anvisa\portfolio\infrastructure\persistence\support\PaginasTest.class
+br\gov\anvisa\portfolio\application\catalogo\CatalogoServiceTest.class
+br\gov\anvisa\portfolio\domain\shared\PaginaRequestTest.class
+br\gov\anvisa\portfolio\api\painel\PainelControllerTest.class
+br\gov\anvisa\portfolio\application\painel\PainelServiceTest.class
+br\gov\anvisa\portfolio\application\sistema\SistemaServiceTest.class
+br\gov\anvisa\portfolio\domain\catalogo\CatalogoTipoTest.class
+br\gov\anvisa\portfolio\domain\documentacao\DocumentacaoTest.class
+br\gov\anvisa\portfolio\domain\usuario\UsuarioTest.class
+br\gov\anvisa\portfolio\domain\sistema\SistemaTest.class
+br\gov\anvisa\portfolio\domain\shared\TextosTest.class
+br\gov\anvisa\portfolio\domain\url\UrlTest.class
+br\gov\anvisa\portfolio\application\usuario\UsuarioServiceTest.class
+br\gov\anvisa\portfolio\application\sistema\SistemaVinculosServiceTest.class
+br\gov\anvisa\portfolio\domain\shared\PaginaTest.class
+br\gov\anvisa\portfolio\api\sistema\SistemaControllerTest.class

@@ -1,0 +1,5 @@
+[
+  {"id": 1, "sistemaId": 1, "tipoVinculo": "SERVIDOR", "referenciaId": 1, "principal": true},
+  {"id": 2, "sistemaId": 1, "tipoVinculo": "SERVIDOR", "referenciaId": 2, "principal": false},
+  {"id": 3, "sistemaId": 1, "tipoVinculo": "SCHEMA", "referenciaId": 1, "principal": true}
+]

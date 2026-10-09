@@ -1,0 +1,4 @@
+[
+  {"id": 1, "nome": "srv-app-01", "enderecoIp": "10.0.0.10", "descricao": "Servidor Aplicação", "ligado": true, "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"},
+  {"id": 2, "nome": "srv-db-01", "enderecoIp": "10.0.0.20", "descricao": "Servidor Banco", "ligado": true, "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"}
+]

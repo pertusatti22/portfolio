@@ -1,0 +1,33 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: 
+    username: 
+    password: 
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+        format_sql: true
+        default_schema: DBPORTIFOLIO
+  sql:
+    init:
+      mode: never
+
+server:
+  port: 
+
+app:
+  cors:
+    allowed-origins: 
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs

@@ -1,0 +1,4 @@
+[
+  {"id": 1, "sigla": "SGP", "nome": "Sistema de Gestão de Portfólio", "descricao": "Portfólio ANVISA", "statusSistemaId": 1, "anvisa": true, "integracaoContinua": true, "validado": true, "numeroOcorrencia": null, "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"},
+  {"id": 2, "sigla": "SIS2", "nome": "Sistema Exemplo 2", "descricao": "Exemplo", "statusSistemaId": 1, "anvisa": false, "integracaoContinua": false, "validado": false, "numeroOcorrencia": null, "dataCriacao": "2026-01-01T00:00:00", "dataAtualizacao": "2026-01-01T00:00:00"}
+]
